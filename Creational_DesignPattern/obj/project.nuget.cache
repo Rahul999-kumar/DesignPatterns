@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5wlL6CpVHj4=",
+  "success": true,
+  "projectFilePath": "D:\\Study-2026\\DesignPatterns\\Creational_DesignPattern\\Creational_DesignPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rahul Kumar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.10\\microsoft.extensions.dependencyinjection.10.0.10.nupkg.sha512",
+    "C:\\Users\\Rahul Kumar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.10\\microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

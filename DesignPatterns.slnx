@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Behavioral/" />
+  <Folder Name="/Creational/">
+    <Project Path="Creational_DesignPattern/Creational_DesignPattern.csproj" Id="a0beb2f8-8153-4490-8eae-798419971b98" />
+  </Folder>
+  <Folder Name="/Structural/" />
+</Solution>
