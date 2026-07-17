@@ -1,13 +1,13 @@
-﻿using Creational_DesignPattern.Enum;
+﻿using Factory_DesignPattern.Enum;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Creational_DesignPattern.Interfaces
+namespace Factory_DesignPattern.Interfaces
 {
     public interface INotificationFactory
     {
-        NotificationType notificationType { get; }
+        NotificationType NotificationType { get; }
         INotification Create();
     }
 }

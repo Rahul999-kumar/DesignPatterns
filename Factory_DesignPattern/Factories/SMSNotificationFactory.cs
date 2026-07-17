@@ -1,18 +1,17 @@
-﻿using Creational_DesignPattern.Enum;
-using Creational_DesignPattern.Interfaces;
-using Creational_DesignPattern.Notifications;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Factory_DesignPattern.Enum;
+using Factory_DesignPattern.Interfaces;
+using Factory_DesignPattern.Notifications;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Creational_DesignPattern.Factories
+namespace Factory_DesignPattern.Factories
 {
     public class SMSNotificationFactory : INotificationFactory
     {
         //private readonly IServiceProvider _serviceProvider;
         private readonly SMSNotification _smsNotification;
-        public NotificationType notificationType => NotificationType.SMS;
+        public NotificationType NotificationType => NotificationType.SMS;
 
         //public SMSNotificationFactorycs(IServiceProvider serviceProvider)
         //{

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Creational_DesignPattern.Interfaces
+namespace Factory_DesignPattern.Interfaces
 {
     public interface INotification
     {

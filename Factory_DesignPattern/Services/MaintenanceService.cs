@@ -1,16 +1,16 @@
-﻿using Creational_DesignPattern.Enum;
-using Creational_DesignPattern.Interfaces;
+﻿using Factory_DesignPattern.Enum;
+using Factory_DesignPattern.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Creational_DesignPattern.Services
+namespace Factory_DesignPattern.Services
 {
-    public class Maintenance
+    public class MaintenanceService
     {
         private readonly IEnumerable<INotificationFactory> _notificationFactories;
 
-        public Maintenance(IEnumerable<INotificationFactory> notificationFactories)
+        public MaintenanceService(IEnumerable<INotificationFactory> notificationFactories)
         {
             _notificationFactories = notificationFactories;
         }
@@ -20,7 +20,7 @@ namespace Creational_DesignPattern.Services
             Console.WriteLine("Maintenance Completed.");
 
             var factory = _notificationFactories.FirstOrDefault(x =>
-                x.notificationType == notificationType);
+                x.NotificationType == notificationType);
 
             if (factory == null)
             {
@@ -33,6 +33,5 @@ namespace Creational_DesignPattern.Services
             await notification.SendAsync(
                 "Aircraft Maintenance Completed Successfully.");
         }
-
     }
 }

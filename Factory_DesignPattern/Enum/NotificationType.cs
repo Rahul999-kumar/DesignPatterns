@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Creational_DesignPattern.Enum
+namespace Factory_DesignPattern.Enum
 {
     public enum NotificationType
     {

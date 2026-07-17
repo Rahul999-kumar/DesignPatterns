@@ -1,11 +1,11 @@
-﻿using Creational_DesignPattern.Interfaces;
+﻿using Factory_DesignPattern.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Creational_DesignPattern.Notifications
+namespace Factory_DesignPattern.Notifications
 {
-    public class EmailNotification: INotification
+    public class EmailNotification : INotification
     {
         public async Task SendAsync(string message)
         {

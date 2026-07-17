@@ -1,7 +1,12 @@
 <Solution>
   <Folder Name="/Behavioral/" />
-  <Folder Name="/Creational/">
-    <Project Path="Creational_DesignPattern/Creational_DesignPattern.csproj" Id="a0beb2f8-8153-4490-8eae-798419971b98" />
+  <Folder Name="/Creational/" />
+  <Folder Name="/Creational/AbstractFactoryMethod/" />
+  <Folder Name="/Creational/FactoryMethod/">
+    <Project Path="Factory_DesignPattern/Factory_DesignPattern.csproj" Id="712bf55a-8d17-46c5-9f21-65379ceda250" />
+  </Folder>
+  <Folder Name="/Creational/Singleton/">
+    <Project Path="Singleton_DesignPattern/Singleton_DesignPattern.csproj" Id="56cc446c-8497-48f6-a1c7-862af213527d" />
   </Folder>
   <Folder Name="/Structural/" />
 </Solution>
