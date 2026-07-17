@@ -1,7 +1,9 @@
 <Solution>
   <Folder Name="/Behavioral/" />
   <Folder Name="/Creational/" />
-  <Folder Name="/Creational/AbstractFactoryMethod/" />
+  <Folder Name="/Creational/AbstractFactoryMethod/">
+    <Project Path="AbstarctFactory_DesignPattern/AbstarctFactory_DesignPattern.csproj" Id="13dd9d55-de76-47f6-8844-df29fa0aff2b" />
+  </Folder>
   <Folder Name="/Creational/FactoryMethod/">
     <Project Path="Factory_DesignPattern/Factory_DesignPattern.csproj" Id="712bf55a-8d17-46c5-9f21-65379ceda250" />
   </Folder>
